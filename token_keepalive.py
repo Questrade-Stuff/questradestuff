@@ -4,7 +4,7 @@
 Daily token refresh to keep Questrade API tokens alive for all users
 """
 import sys
-sys.path.append('/home/scott/coding/Questrade')
+sys.path.append('/home/coding/Questrade')
 
 from questrade_api import QuestradeAPI
 
