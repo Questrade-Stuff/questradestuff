@@ -11,7 +11,7 @@ import urllib.error
 import time
 
 # Initialize Questrade API with hardcoded user_id for automated/cron execution
-# user_id=1 means this will always run as Bink without prompting
+# user_id=1 means this will always run as xx without prompting
 qt = QuestradeAPI(user_id=1)
 
 # MySQL database connection setup
